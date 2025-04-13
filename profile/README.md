@@ -26,11 +26,11 @@ The **QuackVerse** is our ecosystem of lightweight, focused tools — called **Q
 - Automate tedious tasks
 - Ship prototypes faster
 
-All QuackTools follow a unified plugin architecture designed to work standalone and inside DuckTyper.  
+All QuackTools follow a unified plugin architecture and are designed to work both standalone and inside DuckTyper.  
 They’re built to stay under ~600 LOC to remain teachable, testable, and extendable.
 
 Explore the tools:
-- [`quacktool-template`](https://github.com/ducktyper-ai/quacktool-template) – The base template for building your tools.
+- [`quacktool-template`](https://github.com/ducktyper-ai/quacktool-template) – The base template for building your own tools.
 - [`quackprompt`](https://github.com/ducktyper-ai/quackprompt) – Prompt engineering playground.
 - [`quacktokenscope`](https://github.com/ducktyper-ai/quacktokenscope) – Tokenizer comparison tool.
 - [`quackmetadata`](https://github.com/ducktyper-ai/quackmetadata) – AI metadata extractor for text docs.
@@ -59,7 +59,7 @@ DuckTyper is more than a CLI — it’s a game-inspired AI education platform.
 🏆 **Earn XP**: Complete chapters, unlock badges, track your progress.  
 📦 **No browser required**: All learning happens in the terminal.
 
-Whether you're a beginner or an AI native developer, DuckTyper helps you master tools by **shipping real code**.
+Whether you're a beginner or AI-native developer, DuckTyper helps you master tools by **shipping real code**.
 
 ---
 
@@ -70,3 +70,44 @@ Whether you're a beginner or an AI native developer, DuckTyper helps you master 
    git clone https://github.com/ducktyper-ai/ducktyper
    cd ducktyper
    pip install -e .
+   ```
+
+2. Run your first command:
+   ```bash
+   ducktyper run quackprompt --interactive
+   ```
+
+3. Or explore all tools:
+   ```bash
+   ducktyper list
+   ```
+
+---
+
+## 📣 Join the Flock
+
+🗺️ **Website:** [https://ducktyper.ai](https://ducktyper.ai)  
+🧵 **Threads / X:** [@ducktyper_ai](https://x.com/ducktyper_ai)  
+📺 **YouTube Walkthroughs:** [Coming soon]  
+🐤 **Discord:** [Coming soon]
+
+We’re a one-duck team right now, but we’re open to contributors and collaborators.
+
+---
+
+## 🦆 Contributing
+
+We love PRs. Check out:
+- [📚 CONTRIBUTING.md](https://github.com/ducktyper-ai/.github/blob/main/CONTRIBUTING.md)
+- [🗺️ QuackTool Manifesto](https://github.com/ducktyper-ai/.github/blob/main/QUACKTOOL_MANIFESTO.md)
+
+---
+
+## 🧭 License
+
+Most repos are MIT. Some QuackTools are proprietary or hybrid-licensed.  
+See individual repo READMEs for details.
+
+---
+
+*Built with ❤️ by @rodriveracom and the AI Product Engineer community.*
